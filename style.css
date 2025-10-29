@@ -339,7 +339,8 @@ img{
 .css img,
 .bootstrap img,
 .js img,
-.jquery img{
+.react img,
+.tailwind img{
     padding: 20px;
     margin: 0;
     height: 90px;
@@ -361,11 +362,10 @@ img{
 .css,
 .bootstrap,
 .js,
-.jquery{
+.react,
+.tailwind{
     transition: transform 0.4s ease-in-out;
     padding: 10px;
-   
-   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -377,7 +377,8 @@ img{
 .css:hover,
 .bootstrap:hover,
 .js:hover,
-.jquery:hover{
+.react:hover,
+.tailwind:hover{
     transform: translateY(-5px);
     transition: transform 0.4s ease-in-out;
 }
@@ -443,6 +444,7 @@ img{
 .project-container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .portfolio-site{
     height: 520px;
@@ -457,7 +459,6 @@ img{
     height: 170px;
     width: 300px;
     border-radius: 0;
-    
     display: block; margin: 0 auto; 
     margin-top: 30px;
     margin-bottom: 30px;
